@@ -1,0 +1,12 @@
+
+크로스 컴파일러 환경 설치
+sudo apt-get install gcc-arm-none-eabi
+
+QEMU 설치
+sudo apt install qemu-system-arm
+
+3장
+wget https://github.com/navilera/Navilos/archive/95f2b8d.zip
+wget https://github.com/navilera/Navilos/archive/d99603c.zip
+wget https://github.com/navilera/Navilos/archive/be7a34c.zip
+wget https://github.com/navilera/Navilos/archive/0ea7fe7.zip
