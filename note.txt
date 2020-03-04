@@ -38,6 +38,13 @@ navilos.ld
 
 $ arm-none-eabi-ld -n -T ./navilos.ld -nostdlib -o navilos.axf boot/Entry.o
 
+실행 
+$ qemu-system-arm -M realview-pb-a8 -kernel navilos.axf -S -gdb tcp::1234,ipv4
+
+
+
+
+
 
 Chapter 4
 wget https://github.com/navilera/Navilos/archive/51c9cd9.zip
