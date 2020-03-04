@@ -10,3 +10,14 @@ wget https://github.com/navilera/Navilos/archive/95f2b8d.zip
 wget https://github.com/navilera/Navilos/archive/d99603c.zip
 wget https://github.com/navilera/Navilos/archive/be7a34c.zip
 wget https://github.com/navilera/Navilos/archive/0ea7fe7.zip
+
+Chapter 4
+wget https://github.com/navilera/Navilos/archive/51c9cd9.zip
+wget https://github.com/navilera/Navilos/archive/fa4510c.zip
+
+Chapter 5
+wget https://github.com/navilera/Navilos/archive/6c43617.zip
+wget https://github.com/navilera/Navilos/archive/ebe633e.zip
+wget https://github.com/navilera/Navilos/archive/d245167.zip
+wget https://github.com/navilera/Navilos/archive/223722b.zip
+wget https://github.com/navilera/Navilos/archive/c484d81.zip
