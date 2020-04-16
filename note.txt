@@ -1,13 +1,14 @@
 
 크로스 컴파일러 환경 설치
-sudo apt-get install gcc-arm-none-eabi
-arm-none-eabi-gcc -v
+$ sudo apt-get install gcc-arm-none-eabi
+$ arm-none-eabi-gcc -v       설치 확인 
 
 QEMU 설치
-sudo apt install qemu-system-arm
+$ sudo apt install qemu-system-arm
+$ qemu-system_arm --version      설치 확인 
 
 지원 장치리스트 
-qemu-system-arm -M ?
+$ qemu-system-arm -M ?
 ...
 realview-pb-a8    
 ...
@@ -39,12 +40,28 @@ navilos.ld
 
 at <jblos_dir>
 $ arm-none-eabi-ld -n -T ./navilos.ld -nostdlib -o navilos.axf boot/Entry.o
+$ arm-none-eabi-objcopy -D navilos.axf
 
 실행 
 $ qemu-system-arm -M realview-pb-a8 -kernel navilos.axf -S -gdb tcp::1234,ipv4
 
+gdb 실행 확인
+($ arm-none-eabi-gdb)
+$ gdb-multiarch
+(gdb) target remote:1234
+(gdb) x/4x 0
+0x0:    0xe1a00001      0x0a0a0a0a      0x0a0a0a0a      0x0a0a0a0a
+(gdb) quit
 
 
+3.4 빌드 자동화하기 
+Makefile 
+
+$ make all
+$ make debug
+
+gdb 실행 확인
+        <====================  Now
 
 
 
