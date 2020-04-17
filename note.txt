@@ -61,11 +61,22 @@ $ make all
 $ make debug
 
 gdb 실행 확인
-        <====================  Now
 
 
+$ git add .
+$ git commit -m "Makefile"
+$ git push
+    jblee3@gmail.com g..j.#....
+
+$ make
+$ make debug
+$ make gdb
+
+(gdb) step     ( s )
+(gdb) info register     ( i r )
 
 Chapter 4
+        <====================  Now
 wget https://github.com/navilera/Navilos/archive/51c9cd9.zip
 wget https://github.com/navilera/Navilos/archive/fa4510c.zip
 
