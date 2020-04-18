@@ -76,13 +76,14 @@ $ make gdb
 (gdb) info register     ( i r )
 
 Chapter 4
-        <====================  Now
 wget https://github.com/navilera/Navilos/archive/51c9cd9.zip
 wget https://github.com/navilera/Navilos/archive/fa4510c.zip
 
 
+$ make clean 해주기 
 
 
+        <====================  Now
 
 Chapter 5
 wget https://github.com/navilera/Navilos/archive/6c43617.zip
